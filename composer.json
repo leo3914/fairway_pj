@@ -1,0 +1,19 @@
+{
+    "name": "phyop/fwproject",
+    "autoload": {
+        "psr-4": {
+            "Phyop\\Fwproject\\": "src/",
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pyae Phyo",
+            "email": "phyopyae.3914@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}
